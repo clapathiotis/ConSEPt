@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "/home/consept/tmp",
+        "file": "/home/consept/tmp/concolic/annotated_nested_if_else.cpp",
+        "command": "clang -emit-llvm -g -c /home/consept/tmp/concolic/annotated_nested_if_else.cpp"
+    }
+]

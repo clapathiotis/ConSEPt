@@ -1,0 +1,10 @@
+**/__pycache__/
+**/.pytest_cache/
+Scripts/
+Lib/
+annotated_file.cpp
+messages.txt
+repo-key
+.dextool_mutate.toml
+dextool_mutate.sqlite3
+.vscode/*

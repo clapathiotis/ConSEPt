@@ -1,0 +1,6 @@
+clang==16.0.1.1
+libclang==16.0.0
+pytest==7.3.1
+docker==6.1.2
+toml==0.10.2
+pydos2unix==0.0.1

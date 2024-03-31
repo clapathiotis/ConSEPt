@@ -1,0 +1,22 @@
+image: python:3.11.3-slim-buster
+
+variables:
+    PYTHONPATH: "$CI_PROJECT_DIR"
+
+run_tests:
+    before_script:
+        - pip install --upgrade pip
+        - pip install pylint
+        - pip install pycycle
+        - pip install clang
+        - pip install libclang
+        - pip install docker
+        - pip install pydos2unix
+        - pip install toml
+    script:
+        - pytest
+        - pylint src
+        - pylint --load-plugins=pylint_plugins.check_cbo src
+        - pylint --load-plugins=pylint_plugins.comment_ratio src
+        - find src/ -name '*.py' -not -path '*/__pycache__/*' | xargs symilar
+        - pycycle --here

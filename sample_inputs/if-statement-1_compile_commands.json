@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/consept/tmp",
+    "file": "/home/consept/tmp/concolic/annotated_if-statement-1.cpp",
+    "command": "clang -emit-llvm -g -c /home/consept/tmp/concolic/annotated_if-statement-1.cpp"
+  }
+]

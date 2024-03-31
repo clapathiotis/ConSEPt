@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "/home/consept/tmp",
+        "file": "/home/consept/tmp/concolic/annotated_array_chars.cpp",
+        "command": "clang -emit-llvm -g -c /home/consept/tmp/concolic/annotated_array_chars.cpp"
+    }
+]

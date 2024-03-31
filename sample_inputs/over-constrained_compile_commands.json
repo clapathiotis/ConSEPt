@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "/home/consept/tmp",
+        "file": "/home/consept/tmp/concolic/annotated_over-constrained.cpp",
+        "command": "clang -emit-llvm -g -c /home/consept/tmp/concolic/annotated_over-constrained.cpp"
+    }
+]
